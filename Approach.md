@@ -2,12 +2,13 @@
 This document will provide guidelines to setup the Amazon EC2 regression testing instance on AWS.
 
 Contents:
-- [Software List](#software)
-- [Access and setup](#access)
-- [Install Docker](#install)
-- [Known issues](#known)
+- [Software List](#Software-List)
+- [Access and setup](#Access-and-setup)
+- [Install Docker](#Install-Docker)
+- [Known issues](#Known-Issues)
 
-## Possible Software used in the creation of the regression setup
+## Software-List
+Possible Software used in the creation of the regression setup
 1. Github
 1. Docker
 1. Postman
@@ -19,7 +20,7 @@ Contents:
 1. EC2 instance on AWS (Amazon Web Server)
 1. Linux (on AWS instance used) 
 
-## Access and setup
+## Access-and-setup
 Guidelines on how to setup the EC2 testing environment, the installations and configurations requirements.
 
 ##### AWS - EC2 Instance Detail
@@ -144,7 +145,7 @@ Include below entries:
     yum install telnet
     ```
 
-## Install Docker
+## Install-Docker
 Guidelines to install Docker on the EC2 instance
 
 ##### Update the packages on your instance
@@ -179,7 +180,7 @@ By adding the userID to the docker list you will avoid the need to type "sudo" t
 sudo usermod -a -G docker ec2-user
 ```
 
-## Known issues
+## Known-Issues
 ##### If the server was stopped and restarted, the Docker daemon will not be running. To start the Docker daemon:
 ```
 sudo service docker start
