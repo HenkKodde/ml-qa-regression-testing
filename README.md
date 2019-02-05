@@ -10,14 +10,14 @@ A guideline to setup and conducting a regression testing framework and process o
 - Test result distribution
  
 Contents:
-- [Environment information](#environment information)
-- [Access and setup](#access and setup)
-- [Replicating Mojaloop project and environment](#replicating Mojaloop project and environment)
-- [Executing regression test](#executing regression test)
-- [Postman regression test with Newman](#postman regression test with Newman)
-- [Automation and scheduling](#automation and scheduling)
-- [Additional information](#additional information)
-- [Known issues](#known issues)
+- [Environment information](#environment)
+- [Access and setup](#access)
+- [Replicating Mojaloop project and environment](#replicating)
+- [Executing regression test](#executing)
+- [Postman regression test with Newman](#postman)
+- [Automation and scheduling](#automation)
+- [Additional information](#additional)
+- [Known issues](#known)
 
 ## Environment information
  General information on the EC2 testing environment

@@ -2,10 +2,10 @@
 This document will provide guidelines to setup the Amazon EC2 regression testing instance on AWS.
 
 Contents:
-- [Software List](#software list)
-- [Access and setup](#access and setup)
-- [Install Docker](#install docker)
-- [Known issues](#known issues)
+- [Software List](#software)
+- [Access and setup](#access)
+- [Install Docker](#install)
+- [Known issues](#known)
 
 ## Possible Software used in the creation of the regression setup
 1. Github
